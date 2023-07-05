@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
 import { CounterComponent } from './counter/counter.component';
+import { BotonesComponent } from './botones/botones.component';
 
 //Definir todas las herramientas
 @NgModule({
   declarations: [
     AppComponent,
-    CounterComponent
+    CounterComponent,
+    BotonesComponent
   ],
   imports: [
     BrowserModule
