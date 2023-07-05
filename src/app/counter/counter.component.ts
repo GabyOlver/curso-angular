@@ -13,6 +13,9 @@ export class CounterComponent implements OnInit {
     
   }
 
-  nombre = 'Gaby Olvera';
+  persona = {
+    nombre: 'Gaby Olvera',
+    edad: 26
+  }
   
 }
