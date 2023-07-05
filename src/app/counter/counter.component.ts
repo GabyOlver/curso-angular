@@ -14,9 +14,14 @@ export class CounterComponent implements OnInit {
     
   }
 
-  persona: Persona = {
-    nombre: 'Gaby Olvera',
-    edad: 26
-  }
+numero: number = 1;
+
+decrementar() {
+  this.numero--;
+}
+
+incrementar() {
+  this.numero += 1;
+}
   
 }
