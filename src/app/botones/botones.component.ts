@@ -13,7 +13,5 @@ export class BotonesComponent implements OnInit {
     
   }
 
-  text_color:string = '';
-
-  button_disabled:boolean = false;
+  src:string = 'https://images.pexels.com/photos/14944868/pexels-photo-14944868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 }
