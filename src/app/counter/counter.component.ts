@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Persona } from '../persona';
 
 @Component({
   selector: 'app-counter',
@@ -13,7 +14,7 @@ export class CounterComponent implements OnInit {
     
   }
 
-  persona = {
+  persona: Persona = {
     nombre: 'Gaby Olvera',
     edad: 26
   }
