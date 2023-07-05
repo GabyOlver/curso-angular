@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'curso-angular';
+  title = 'Curso Angular';
 }
   // Propiedad selector con valor app-root, este valor es el que usa para llamar al componente
  

@@ -12,4 +12,7 @@ export class CounterComponent implements OnInit {
   ngOnInit(): void {
     
   }
+
+  nombre = 'Gaby Olvera';
+  
 }
