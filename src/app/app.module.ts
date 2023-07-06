@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 
 import { CounterComponent } from './counter/counter.component';
 import { BotonesComponent } from './botones/botones.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 //Definir todas las herramientas
 @NgModule({
   declarations: [
     AppComponent,
     CounterComponent,
-    BotonesComponent
+    BotonesComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule
