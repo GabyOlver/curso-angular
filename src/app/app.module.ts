@@ -9,9 +9,10 @@ import { FormularioComponent } from './formulario/formulario.component';
 import { BuclesComponent } from './bucles/bucles.component';
 import { SwitchComponent } from './switch/switch.component';
 import { Form2Component } from './form2/form2.component';
-
-import { FormsModule } from '@angular/forms';
 import { OtroFormComponent } from './otro-form/otro-form.component';
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { Formulario3Component } from './formulario3/formulario3.component';
 
 //Definir todas las herramientas
 @NgModule({
@@ -23,11 +24,13 @@ import { OtroFormComponent } from './otro-form/otro-form.component';
     BuclesComponent,
     SwitchComponent,
     Form2Component,
-    OtroFormComponent
+    OtroFormComponent,
+    Formulario3Component
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent] //El componente appComponent forma parte de este modulo y esta es su herramienta principal
