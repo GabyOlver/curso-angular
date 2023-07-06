@@ -1,7 +1,7 @@
 <div class="card">
     <div class="card-body">
         
-        <form (ngSubmit)="procesar()">
+        <form (ngSubmit)="procesar()" #formContact="ngForm">
             <div class="mb-2">
                 <label class="form-label">
                     Nombre:
@@ -28,13 +28,16 @@
 
             </div>
 
-            <button class="btn btn-primary" [disabled]="name.invalid || edad.invalid">
+            <button class="btn btn-primary mt-2" [disabled]="formContact.invalid">
                 Enviar
             </button>
         </form>
     </div>
 </div>
 
+<!-- {{ formContact.valid | json}} -->
+
+<!-- FORMULARIOS BASADOES EN PLANTILLAS -->
 <!-- {{ name.errors | json}} -->
 
 <hr>
