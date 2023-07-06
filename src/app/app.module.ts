@@ -11,6 +11,7 @@ import { SwitchComponent } from './switch/switch.component';
 import { Form2Component } from './form2/form2.component';
 
 import { FormsModule } from '@angular/forms';
+import { OtroFormComponent } from './otro-form/otro-form.component';
 
 //Definir todas las herramientas
 @NgModule({
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     FormularioComponent,
     BuclesComponent,
     SwitchComponent,
-    Form2Component
+    Form2Component,
+    OtroFormComponent
   ],
   imports: [
     BrowserModule,
