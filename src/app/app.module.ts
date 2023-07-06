@@ -7,6 +7,7 @@ import { CounterComponent } from './counter/counter.component';
 import { BotonesComponent } from './botones/botones.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { BuclesComponent } from './bucles/bucles.component';
+import { SwitchComponent } from './switch/switch.component';
 
 //Definir todas las herramientas
 @NgModule({
@@ -15,7 +16,8 @@ import { BuclesComponent } from './bucles/bucles.component';
     CounterComponent,
     BotonesComponent,
     FormularioComponent,
-    BuclesComponent
+    BuclesComponent,
+    SwitchComponent
   ],
   imports: [
     BrowserModule
