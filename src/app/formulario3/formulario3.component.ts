@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-formulario3',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class Formulario3Component {
 
+  name = new FormControl('');
+  email = new FormControl('');
 }
