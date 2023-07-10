@@ -13,6 +13,7 @@ import { OtroFormComponent } from './otro-form/otro-form.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Formulario3Component } from './formulario3/formulario3.component';
+import { ChildrenComponent } from './children/children.component';
 
 //Definir todas las herramientas
 @NgModule({
@@ -25,7 +26,8 @@ import { Formulario3Component } from './formulario3/formulario3.component';
     SwitchComponent,
     Form2Component,
     OtroFormComponent,
-    Formulario3Component
+    Formulario3Component,
+    ChildrenComponent
   ],
   imports: [
     BrowserModule,

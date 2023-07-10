@@ -8,6 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Curso Angular';
 }
+
+
+
+
+
+
   // Propiedad selector con valor app-root, este valor es el que usa para llamar al componente
  
   //la propiedad templateUrl se asigna una direccion de un html cada que se llama a app-root se llama al doc html y desde ahi se muestra el contenido, 
