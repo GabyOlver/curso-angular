@@ -14,6 +14,8 @@ import { OtroFormComponent } from './otro-form/otro-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Formulario3Component } from './formulario3/formulario3.component';
 import { ChildrenComponent } from './children/children.component';
+import { AddMessageComponent } from './add-message/add-message.component';
+import { ListMessageComponent } from './list-message/list-message.component';
 
 //Definir todas las herramientas
 @NgModule({
@@ -27,7 +29,9 @@ import { ChildrenComponent } from './children/children.component';
     Form2Component,
     OtroFormComponent,
     Formulario3Component,
-    ChildrenComponent
+    ChildrenComponent,
+    AddMessageComponent,
+    ListMessageComponent
   ],
   imports: [
     BrowserModule,
