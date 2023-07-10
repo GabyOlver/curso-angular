@@ -1,11 +1,15 @@
 <div class="container">
-    <h1> {{ title }} </h1>
+    <!-- <h1> {{ title }} </h1> -->
+    <h2>Componente padre</h2>
 
-    <input type="text" class="form-control" [(ngModel)]="title">
+    <input type="text" class="form-control mb-4" [(ngModel)]="title">
 
-    <app-children [title]="title"></app-children>
-    
+    <app-children [(title)]="title"></app-children>
+    <!-- <app-children [title]="title" (titleChange)="title = $event"></app-children> -->
+
 </div>
+
+<!-- Parametro [title], escuchando un evento (titleChange) Accion modificar title por lo que se este mandando en $event-->
 
 <!-- <app-formulario3></app-formulario3> -->
 <!-- <app-otro-form></app-otro-form> -->
