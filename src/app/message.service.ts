@@ -7,7 +7,7 @@ export class MessageService {
 
   constructor() { }
 
-  message: string[] = ['a', 'b'];
+  message: string[] = [];
 
   add(message: string) {
     this.message.push(message)
