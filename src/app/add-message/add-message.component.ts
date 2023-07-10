@@ -8,8 +8,7 @@ import { MessageService } from '../message.service'
 })
 export class AddMessageComponent {
 
-  constructor(public messageService: MessageService) {
-
-    message?: String;
-  }
+  constructor(public messageService: MessageService) { }
+  
+  message?: String;
 }
